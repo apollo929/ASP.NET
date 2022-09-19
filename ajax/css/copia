@@ -1,0 +1,17 @@
+/* Beginning of search input */
+.ajax_loader
+{
+    background-size: 25px;
+    background-image: url('https://www.ciacsrl.it/ajax/img/ajax-loader.gif');
+    background-repeat: no-repeat;
+    background-position: 98% 46%;
+}
+.ajax_loader.clear
+{
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 98% 46%;
+}
+
+
+input { background:#f3f7f8; color:#73abca; margin:21px 0 0 25px; font-size:14px; border:0; width:470px; height:30px; }

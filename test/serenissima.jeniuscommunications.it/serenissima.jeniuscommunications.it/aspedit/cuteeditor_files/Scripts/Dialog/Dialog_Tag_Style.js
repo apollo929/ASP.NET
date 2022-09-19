@@ -1,0 +1,1 @@
+var _$_3070=[""];function ParseFloatToString(_0x10EC1){var _0x160F2=parseFloat(_0x10EC1);if(isNaN(_0x160F2)){return _$_3070[0]};return _0x160F2+ _$_3070[0]}

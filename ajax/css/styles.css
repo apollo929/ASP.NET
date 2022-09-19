@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body { font-family:Verdana, Geneva, sans-serif; font-size:12px; margin:0; padding:0; }
+
+input { background:#f3f7f8; color:#73abca; margin:21px 0 0 25px; font-size:14px; border:0; width:470px; height:30px; }
+img { border:0; }
+a, a:visited { color:#626262; text-decoration:none; }
+a:hover { color:#818181; text-decoration:none; }
+
+#content { background-color:#ebeae8; margin:120px auto 0 auto; position:relative; width:525px; border:1; }
+#form { background: url(../img/input_bg.jpg) no-repeat; margin:auto; position:relative; width:525px; height:75px; }
+#counter { color:#626262; width:510px; height:18px; text-align:right; }
+#show_results { width:525px; position:relative; margin:auto; }
+
+/* search results */
+#results { width:525px; position:relative; margin:20px auto; padding:0; }
+
+/* search results top panel */
+#results_top { background:url(../img/content_corners.gif) no-repeat top; height:35px; width:508px; padding:15px 0 0 17px; }
+#results_top p { background:url(../img/info.gif) no-repeat; margin:0; padding:8px 0 0 15px; width:475px; height:22px; }
+
+/* search results bottom panel */
+#results_bottom { background:url(../img/content_corners.gif) no-repeat bottom; width:507px; height:45px; padding:10px 0 0 18px; }
+#results_bottom p { background:url(../img/info.gif) no-repeat; margin:0; padding:8px 0; width:490px; height:22px; text-align:center; color:#ff8a00; font-weight:bold; }
+#results_bottom a, #results_bottom a:visited { text-decoration:none; color:#73abca; display:inline-block; padding:3px; font-weight:normal; }
+#results_bottom a:hover { color:#ff8a00; }
+
+.item { background:#FFF; width:510px; margin:0 8px; padding:8px 0; border-bottom:1px dotted #E6E6E6; }
+.details { width:550px; float:left; padding:0 5px 0 10px; font-size:10px; }
+.details img { margin:0 8px 0 2px; padding:3px; border:1px solid #e8eff1; }
+.title, .title:visited { color:#ff8a00; text-decoration:none; font-weight:bold; font-size:12px; }
+.title:hover { color:#e07000; }
+.details p { padding:5px 0 0 0; margin:0; }
+
+.details span { font-weight:bold; color:#ff0000; background-color:#ffff00; } /* highlight text */
+
+.played { width:90px; float:right; padding:0 10px 0 5px; height:65px; text-align:center; }
+.played span, #played span span { color:#ff8a00; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size:16px; font-weight:bold; margin:0; padding:0; }
+.played p { margin:4px 0; padding:0; font-size:10px; }
+.played p span { margin:0; padding:0; font-size:10px; color:#73abca; font-family:Verdana, Geneva, sans-serif; font-weight:normal; font-style:normal; }
+
+
+
+/* Beginning of search input */
+.ajax_loader
+{
+    background-size: 25px;
+    background-image: url('https://www.ciacsrl.it/ajax/img/ajax-loader.gif');
+    background-repeat: no-repeat;
+    background-position: 98% 46%;
+}
+.ajax_loader.clear
+{
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 98% 46%;
+}
+

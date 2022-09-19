@@ -1,0 +1,5 @@
+﻿{
+  "Description": "File di verifica della proprietà del dominio per Microsoft 365 - posizionato nella radice del sito Web",
+  "Domain": "hatseries.com",
+  "Id": "2ac694d8-d4dc-4355-b486-3b01c62450ff"
+}

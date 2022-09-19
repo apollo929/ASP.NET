@@ -1,0 +1,74 @@
+body { 
+margin:0px;
+}
+
+.testo { font-family: Tahoma; font-size: 12px; color: #000000; font-weight: none; font-align: justify; }
+
+.copyright { font-family: Tahoma; font-size: 10px; color: #000000; font-weight: none; font-align: justify; }
+
+.titoli { font-family: Tahoma; font-size: 14px; color: #0000FF; font-weight: bold; font-align: justify; }
+
+.titoli_bianco { font-family: Tahoma; font-size: 20px; color: #ffffff; font-weight: bold; font-align: justify; }
+
+.form {font-family: Tahoma;font-size: 12px; color: #000000; font-weight: none; font-align:justify;}
+
+.pulsanti {
+  font-family: Tahoma;
+  color: #ffffff;
+  font-size: 12px;
+  border: solid 1px #999999;
+  background-color: #0000ff;
+  font-weight: bold;
+  font-style: normal;
+  height: 22px;
+  width: 200px;
+  background-image: url('http://www.mp-webconsulting.com/admin/images/pulsanti.gif');
+}
+
+.pulsanti_pic {
+  font-family: Tahoma;
+  color: #ffffff;
+  font-size: 12px;
+  border: solid 1px #999999;
+  background-color: #0000ff;
+  font-weight: bold;
+  font-style: normal;
+  height: 22px;
+  width: 80px;
+  background-image: url('http://www.mp-webconsulting.com/admin/images/pulsanti.gif');
+}
+
+.select {
+  font-family: Tahoma;
+  color: #ffffff;
+  font-size: 11px;
+  background-color: #6699ff;
+  font-weight: none;
+  font-style: normal;
+}
+  
+.link{font-family:Tahoma; font-size:14px; color:#000000; font-style:normal; font-weight:bold; text-decoration: none;}
+a.link:link {color: #000000; text-decoration: none;}
+a.link:active {color: #ffffff; text-decoration: none;}
+a.link:hover {color: #ffffff; text-decoration: none; background-color: #000000;}
+
+.link2{font-family:Tahoma; font-size:13px; color:#FF0000; font-style:normal; font-weight:bold; text-decoration: none;}
+a.link2:link {color: #FF0000; text-decoration: none;}
+a.link2:active {color: #000000; text-decoration: none;}
+a.link2:hover {color: #000000; text-decoration: none;}
+
+.testo_foot { font-family: Tahoma; font-size: 9px; color: #000000; font-weight: none; }
+
+.scroll {
+	position: static;
+	overflow: auto;
+	SCROLLBAR-FACE-COLOR: #9999ff;
+	SCROLLBAR-ARROW-COLOR: #ffffff;
+}
+
+.menu { font-family: Tahoma; font-size: 14px; color: #B7BFF9; font-weight: bold; font-align: justify; }
+
+.link_menu{font-family:Tahoma; font-size:14px; color:#000000; font-style:normal; font-weight:bold; text-decoration: none;}
+a.link_menu:link {color: #000000; text-decoration: none;}
+a.link_menu:active {color: #ffffff; text-decoration: none;}
+a.link_menu:hover {color: #ffffff; text-decoration: none; background-color: #000000;}

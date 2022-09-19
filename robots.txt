@@ -1,0 +1,4 @@
+﻿User-agent: *
+Sitemap: https://shop.hatseries.com/sitemaps.asp
+Sitemap: https://shop.hatseries.com/sitemapsbuffetti.asp
+Sitemap: https://shop.hatseries.com/sitemapsod.asp

@@ -1,0 +1,28 @@
+<a href="http://www.2enetworx.com/dev/projects/statcountex.asp" target="_blank" title="Get Your Copy of StatCounteX">
+<script type="text/javascript" language="JavaScript">
+// Define the location of count.asp
+// Using a path, you may use this code in any subfolder
+var file='/statcountex/count.asp';
+
+var d=new Date(); 
+var s=d.getSeconds(); 
+var m=d.getMinutes();
+var x=s*m;
+f='' + escape(document.referrer);
+if (navigator.appName=='Netscape'){b='NS';} 
+if (navigator.appName=='Microsoft Internet Explorer'){b='MSIE';} 
+if (navigator.appVersion.indexOf('MSIE 3')>0) {b='MSIE';}
+u='' + escape(document.URL); w=screen.width; h=screen.height; 
+v=navigator.appName; 
+fs = window.screen.fontSmoothingEnabled;
+if (v != 'Netscape') {c=screen.colorDepth;}
+else {c=screen.pixelDepth;}
+j=navigator.javaEnabled();
+info='w=' + w + '&h=' + h + '&c=' + c + '&r=' + f + '&u='+ u + '&fs=' + fs + '&b=' + b + '&x=' + x;
+document.write('<img src="' + file + '?'+info+ '" width=90 height=30 border=0>');
+</script>
+</a>
+<noscript>
+<a href="http://www.2enetworx.com/dev/projects/statcountex.asp">
+<img src="/statcountex/count.asp" width=90 height=30 border=0></a>
+</noscript>

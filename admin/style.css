@@ -1,0 +1,564 @@
+.boxText { font-family: Verdana, Arial, sans-serif; font-size: 11px; }
+.errorBox { font-family : Verdana, Arial, sans-serif; font-size : 11px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family : Verdana, Arial, sans-serif; font-size : 11px; color: #cc0033; }
+.productsNotifications { background: #f2fff7; }
+.orderEdit { font-family : Verdana, Arial, sans-serif; font-size : 11px; color: #70d250; text-decoration: underline; }
+
+BODY {
+  background: #ffffff;
+  color: #000000;
+  margin: 0px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+A {
+  color: #747474;
+  text-decoration: none;
+}
+
+A:hover {
+  color: #888888;
+  text-decoration: underline;
+}
+
+FORM {
+ display: inline;
+}
+
+TR.header {
+  background: #ffffff;
+}
+
+TR.headerNavigation {
+  background: #bbc3d3;
+}
+
+TD.headerNavigation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  background: #bbc3d3;
+  color: #ffffff;
+  font-weight : bold;
+}
+
+A.headerNavigation { 
+  color: #FFFFFF;
+  font-size: 13px;  
+  font-weight: bold;
+  text-decoration: none;
+}
+
+A.headerNavigation:hover {
+  color: #FFFFFF;
+  font-size: 13px;  
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+TR.headerError {
+  background: #ff0000;
+}
+
+TD.headerError {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight : bold;
+  text-align : center;
+}
+
+TR.headerInfo {
+  background: #00ff00;
+}
+
+TD.headerInfo {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  background: #00ff00;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+TR.footer {
+  background: #bbc3d3;
+}
+
+TD.footer {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  background: #bbc3d3;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.infoBox {
+  background: #D3D1D1;
+}
+
+.infoBoxContents {
+  background: #FFFFFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+.infoBoxNotice {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContents {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+TD.infoBoxHeading {
+  background-image: url('images/infobox/corner_center.gif');
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
+  display: none;
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #F0F0F0;
+  //shopping-cart content color
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+  background: #F0F0F0;
+  //shopping-cart content color
+}
+
+TABLE.productListing {
+  border: 0px;
+  border-style: solid;
+  border-color: #E7E7E7;
+  //shopping-cart header/footer color
+  border-spacing: 1px;
+  
+}
+
+.productListing-heading {
+
+border-right:1px solid #FFFFFF;
+border-bottom:3px solid #FFFFFF;
+text-align:left;
+ 
+
+  color: #414956;
+  text-transform:uppercase;
+  font-weight: bold;
+  padding: 11px;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  background: #E7E7E7;
+  //shopping-cart header/footer color
+}
+
+TD.productListing-data {
+border-right:1px solid #FFFFFF; 
+border-bottom:2px solid #FFFFFF;   
+text-align:center;
+vertical-align:top; 
+padding:10 10 10 10;
+
+
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  color: #414956;
+}
+
+
+
+A.pageResults {
+  color: #747474;
+}
+
+A.pageResults:hover {
+  color: #747474;
+}
+
+A.pageResults:visited {
+  color: #747474;
+}
+TH {
+	color : #74767C;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	background-color : #DEDEDE;
+	font-weight: normal;
+}
+TD.pageHeading, DIV.pageHeading {
+ font-size: 14px;
+ color: #63666A;
+ text-decoration: none;
+ font-weight: bold;
+
+  text-decoration: none;
+  height:40px;
+  width: 497px;
+  background: url('images/m99.jpg');
+  background-repeat: no-repeat;
+
+  padding-bottom:0px;
+  padding-left: 15px;
+
+}
+
+TR.subBar {
+  background: #f4f7fd;
+}
+
+TD.subBar {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  color: #000000;
+}
+
+TD.main, P.main {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  padding-left: 11px;
+}
+
+TD.accountCategory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+  color: #aabbdd;
+}
+
+TD.fieldKey {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.fieldValue {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+}
+
+TD.tableHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.newItemInCart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  color: #ff0000;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+TEXTAREA {
+  width: 100%;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+SPAN.greetUser {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #f0a480;
+  font-weight: bold;
+}
+
+TABLE.formArea {
+  background: #f1f9fe;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+TD.formAreaTitle {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #c76170;
+  font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+SPAN.errorText {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+.moduleRow { }
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+.moduleRowSelected { background-color: #E9F4FC; }
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #8c8c8c; }
+.checkoutBarCurrent { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #000000; }
+
+/* message box */
+
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 11px; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 11px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 11px; background-color: #99ff00; }
+
+/* input requirement */
+
+.inputRequirement { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #ff0000; }
+
+
+td{
+ font-family: tahoma,verdana,arial;
+ font-size: 11px;
+ color: #848282;
+}
+ 
+ .ch1{
+ font-size: 9px;
+ color: #9E9E9E;
+ }
+
+ .ch2{
+ font-size: 12px;
+ color: #747474;
+ font-weight: bold;
+ }
+
+ .ch3{
+ font-size: 11px;
+ color: #2C2C2C;
+ }
+
+ .ch4{
+ font-size: 11px;
+ color: #ECECED;
+ text-decoration: none;
+ }
+
+ .ch5{
+ font-size: 14px;
+ color: #63666A;
+ text-decoration: none;
+ font-weight: bold;
+ }
+
+ .ch6{
+ border-left: #E3E3E3 1px solid;
+ border-right: #E3E3E3 1px solid;
+ }
+
+ .ch7{
+ font-size: 9px;
+ color: #ACACAC;
+ text-decoration: none;
+ }
+
+ .ch8{
+ padding-left: 11px;
+ }
+
+ .ch9{
+ font-size: 13px;
+ color: #EA5E00;
+ font-weight: bold;
+ }
+
+ .ch10{
+ font-size: 11px;
+ color: #6E7175;
+ text-decoration: none;
+ }
+
+ .ch11{
+ font-size: 11px;
+ color: #ACACAC;
+ text-decoration: none;
+ }
+
+ .ch12{
+ font-size: 11px;
+ color: #737373;
+ font-weight: bold;
+ }
+
+ .ch13{
+ font-size: 11px;
+ color: #6E6E6E;
+ text-decoration: none;
+ text-transform: uppercase;
+ }
+
+ .ch14{
+ font-size: 9px;
+ color: #8D8D8D;
+ text-decoration: none;
+ }
+
+ .ch15{
+ padding-left: 6px
+ }
+
+ .ch16{
+ font-size: 9px;
+ color: #B3B4B7;
+ }
+
+
+ .ml1{
+ font-size: 11px;
+ color: #007DB9;
+ font-weight: bold;
+ text-decoration: none;
+ }
+
+ .ml2{
+ font-size: 11px;
+ color: #ECECED;
+ text-decoration: none;
+ }
+
+ .ml3{
+ font-size: 12px;
+ color: #1F1F1F;
+ text-decoration: none;
+ }
+
+ .ml4{
+ font-size: 11px;
+ color: #848484;
+ }
+
+ .ml5{
+ font-size: 11px;
+ color: #0076B1;
+ font-weight: bold;
+ text-decoration: none;
+ }
+
+ .ml6{
+ font-size: 11px;
+ color: #74767C;
+ text-decoration: none;
+ }
+
+ .se{            
+ width: 147px;
+ font-size: 9px;
+ color: #717580
+ }
+
+ .se2{            
+ width: 122px;
+ font-size: 9px;
+ color: #717580
+ }
+ 
+ 
+
+ .image_border{
+  border:1px solid #888888; 
+ }
+
+
+
+.borderRight {
+	BORDER-RIGHT: #40B2E4 1px solid
+}
+.borderIMG {
+	BORDER-RIGHT: #0099FF 1px solid; 
+	BORDER-TOP: #0099FF 1px solid; 
+	BORDER-LEFT: #0099FF 1px solid; 
+	BORDER-BOTTOM: #0099FF 1px solid
+}
+.borderIMG2 {
+	BORDER-RIGHT: #FE8C00 1px solid; 
+	BORDER-TOP: #FE8C00 1px solid; 
+	BORDER-LEFT: #FE8C00 1px solid; 
+	BORDER-BOTTOM: #FE8C00 1px solid
+}
+.bianco {FONT-FAMILY: Verdana;FONT-SIZE: 8px;COLOR: #ffffff; TEXT-DECORATION: none;}		
+.rosso8 {FONT-FAMILY: Verdana;FONT-SIZE: 8px;COLOR: #40B2E4; TEXT-DECORATION: none;}
+.rosso10 {FONT-FAMILY: verdana;FONT-SIZE: 13px;COLOR: #40B2E4; TEXT-DECORATION: none;}
+.rosso {FONT-FAMILY: verdana;FONT-SIZE: 13px;COLOR: #40B2E4; TEXT-DECORATION: none;}
+
+.nero {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: #000000; TEXT-DECORATION: none;}		
+.nero:hover{FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: Black; TEXT-DECORATION: UNDERLINE;}		
+.nero7 {FONT-FAMILY: Verdana;FONT-SIZE: 9px;COLOR: #000000; TEXT-DECORATION: none;}	
+.neronew {FONT-FAMILY: Verdana;FONT-SIZE: 9px;COLOR: #000000; TEXT-DECORATION: none;}	
+.neronew:hover {FONT-FAMILY: Verdana;FONT-SIZE: 9px;COLOR: DARKORANGE; TEXT-DECORATION: UNDERLINE;}	
+.nero8 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: gray; TEXT-DECORATION: none;}
+.nero8:hover {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: #000000; TEXT-DECORATION: UNDERLINE;}
+.nero9 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: black; TEXT-DECORATION: none;}		
+.nero9:hover {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: black; TEXT-DECORATION: UNDERLINE;}
+.nero10 {FONT-FAMILY: Verdana;FONT-SIZE: 12px;COLOR: #000000; TEXT-DECORATION: none;}	
+.nero10:hover {FONT-FAMILY: Verdana;FONT-SIZE: 12px;COLOR: Black; TEXT-DECORATION: UNDERLINE;}		
+.nero11{FONT-FAMILY: Verdana;FONT-SIZE: 13px;COLOR: Navy; TEXT-DECORATION: none;}		
+	
+
+.bianco7 {FONT-FAMILY: Verdana;FONT-SIZE: 9px;COLOR: #ffffff; TEXT-DECORATION: none;}
+.bianco8 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: #ffffff; TEXT-DECORATION: none;}
+.bianco9 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: #ffffff; TEXT-DECORATION: none;}
+.bianco10 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: #74767C; TEXT-DECORATION: none;}
+.bianco11 {FONT-FAMILY: Verdana;FONT-SIZE: 13px;COLOR: #ffffff; TEXT-DECORATION: none;}
+.bianco11b{FONT-FAMILY: Verdana;FONT-SIZE: 13px;COLOR: #ffffff; TEXT-DECORATION: none;font-weight: bold;}		
+.bianco11b:hover {FONT-FAMILY: Verdana;FONT-SIZE: 13px;COLOR: red; TEXT-DECORATION: UNDERLINE;}	
+.bianco14 {FONT-FAMILY: Verdana;FONT-SIZE: 16px;COLOR: #ffffff; TEXT-DECORATION: none;}
+
+
+.gray9 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: dimgray; TEXT-DECORATION: none;}		
+.gray9:hover {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: darkorange; TEXT-DECORATION: UNDERLINE;}
+.gray10 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: DimGray; TEXT-DECORATION: none;}
+.neroarial11{FONT-FAMILY: Arial;FONT-SIZE: 13px;COLOR: #000000; TEXT-DECORATION: UNDERLINE;;}	
+.Orange9 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: DarkOrange; TEXT-DECORATION: none;font-weight: bold;}
+.Orange12 {FONT-FAMILY: Verdana;FONT-SIZE: 12px;COLOR: DarkOrange; TEXT-DECORATION: none;font-weight: bold;}
+.Orangenew {FONT-FAMILY: Verdana;FONT-SIZE: 14px;COLOR: DarkOrange; TEXT-DECORATION: none;font-weight: bold;}
+.Orange14 {FONT-FAMILY: Arial;FONT-SIZE: 16px;COLOR: DarkOrange; TEXT-DECORATION: none;font-weight: bold;}
+.navy11{FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: #40B2E4; TEXT-DECORATION: underline;font-weight: bold;}
+.navy10{FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: Navy; TEXT-DECORATION: underline;}
+.navy10n{FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: Navy; TEXT-DECORATION: none;}
+.navy11n{FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: #40B2E4; TEXT-DECORATION: none;}
+.navy9{FONT-FAMILY: Verdana;FONT-SIZE: 11px;COLOR: Navy; TEXT-DECORATION: none;}
+.navy8n{FONT-FAMILY: Verdana;FONT-SIZE: 9px;COLOR: Navy; TEXT-DECORATION: none;}
+
+.menutop {text-decoration:none;FONT-FAMILY: Verdana;FONT-SIZE: 12px;COLOR: #ffffff;font-weight:bold;}
+.menutop:hover {text-decoration:underline;background-color:#FE8C00;COLOR:white; ;FONT-SIZE:12px;font-weight:bold;}
+
+.menutopg {VERTICAL-ALIGN: middle;background-repeat: no-repeat;background-image:url("http://www.euroufficiosnc.it/img/menu.gif");text-decoration:none;FONT-FAMILY: Verdana;FONT-SIZE: 13px;COLOR: #ffffff;font-weight:bold;width=190px;height=31px;}
+.menutopg:hover {VERTICAL-ALIGN: middle;background-repeat: no-repeat;background-image:url("http://www.euroufficiosnc.it/img/menu.gif");text-decoration:underline; width=190px;height=31px;COLOR: #FE8C00; ;FONT-SIZE:13px;font-weight:bold;}
+
+.menuprod1 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;background-repeat: no-repeat;background-image: url("http://www.costruttori.it/img/bottone.gif");text-decoration:none;COLOR: navy; FONT-SIZE: 10pt;width=200px;height=25;font-weight: bold;}
+.menuprod1:hover {FONT-FAMILY: Verdana;FONT-SIZE: 11px;text-decoration:none;background-color: Darkorange;COLOR: WHITE; FONT-SIZE: 10pt;width=200px;height=25;font-weight: bold;}
+
+.menuprod2 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;background-repeat: no-repeat;background-image: url("http://www.costruttori.it/img/bottoneara.gif");text-decoration:none;COLOR: navy; FONT-SIZE: 10pt;width=200px;height=25;font-weight: bold;}
+.menuprod2:hover {FONT-FAMILY: Verdana;FONT-SIZE: 11px;text-decoration:none;background-color: Darkorange;COLOR: WHITE; FONT-SIZE: 10pt;width=200px;height=25;font-weight: bold;}
+
+.orange01 {FONT-FAMILY: Verdana;FONT-SIZE: 11px;background-repeat: no-repeat;background-image:url("http://www.costruttori.it/img/bottoneara.gif");text-decoration:none;COLOR: DarkOrange; font-weight: bold;FONT-SIZE: 12px}
+.orange01:hover {FONT-FAMILY: Verdana;FONT-SIZE: 11px;text-decoration:none;background-color:;COLOR: navy; font-weight: bold;FONT-SIZE: 12px}
+
+
+
+

@@ -1,0 +1,279 @@
+
+/*  --------------------  stili per il layout fisso con posizionamenti assoluti  --------------------  */
+
+html,body	{
+		margin: 0;
+		border: 0;
+		padding:0
+		}
+
+body		{ 
+		
+		text-align: center; 
+		color: #000000;
+		background-image: url('images/background.gif'); 
+		background-repeat: repeat 
+		}
+
+
+
+
+p		{
+		margin: 0;
+		border: 0;
+		padding:0;
+		}
+
+/*  --------------------  Division principale: contiene la div ombra che a sua volta contiene la pagina  --------------------  */
+div#container 	{ 
+		width: 980px;
+		margin-top: 0; 
+		margin-left: auto; 
+		margin-bottom: 0;
+		margin-right: auto; 
+		}
+/*  --------------------  Division che fa il rendering dell'ombra sotto la pagina  --------------------  */
+div#ombra 	{ 
+		width: 980px;
+		background-repeat: repeat; 
+		background-image: url('images/shadow.gif'); 
+		}
+/*  --------------------  La Division TOP serve a nascondere l'ombra nella testata di pagina  --------------------  */
+div#top 	{ 
+		width: 980px;
+		background-repeat: no-repeat; 
+		background-image: url('images/noshadow.gif'); 
+		background-position: 50% 0%
+		}
+/*  --------------------  Questa è la Division della pagina vera e propria --------------------  */
+div#page 	{ 
+		width: 960px; 
+		margin-top: 0; 
+		margin-left: auto; 
+		margin-bottom: 0;
+		margin-right: auto; 
+		}
+/*  ------------------------------  stili generici, su header e footer  ------------------------------  */
+div#header	{
+		width: 960px; 
+		}
+
+div#main	{
+		width: 960px; 
+		height: 560px; 
+		background-repeat: no-repeat; 
+		background-image: url('images/sfondo.jpg'); 
+		}
+
+/*  ------------------------------  stili generici, su header e footer  ------------------------------  */
+
+
+
+.whitepage	{
+		background-color: #FFFFFF; 
+		}
+p.flashpar	{
+		text-align: right;
+		padding: 0.5em 1em 0.5em 1em;
+		}
+
+p.flashparsmall	{
+		color: #666666;
+		font-size: 0.8em;
+		text-align: right;
+		padding: 0.5em 1em 0.5em 1em;
+		}
+
+/*  ------------------------------  stili per layer superiore  ------------------------------  */
+
+
+#overlay
+		{ 
+		z-index: 2
+		}  
+
+#sopra {
+        position: fixed;
+        width: 960px;
+        height: 53%;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        left: 0;
+      }
+
+#sotto 	{
+        	position: fixed;
+        	width: 100%;
+        	height: 47%;
+		top: auto; 
+		left: auto; 
+		bottom: 0;
+		right: 0; 
+
+
+     	}
+
+.tabpad		{ 
+		padding: 10;
+		color: #000000;
+		text-align: left; 
+		}
+
+.tabtab		{ 
+		text-align: left; 
+		}
+
+
+#sottosx {
+        position: fixed;
+        width: 21%;
+        height: 45%;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 0;
+     }
+
+#sottodx {
+        position: fixed;
+        width: 79%;
+        height: 45%;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        left: auto;
+     }
+ 
+
+/*  ------------------------------  ----------------------------------  ------------------------------  */
+
+.nero14bold
+{
+font-family: Arial, Helvetica, sans-serif;font-size:14px;
+font-weight:bold;
+}
+.nero16bold
+{
+font-family: Arial, Helvetica, sans-serif;font-size:16px;
+font-weight:bold;
+}
+.nero18bold
+{
+font-family: Arial, Helvetica, sans-serif;font-size:18px;
+font-weight:bold;
+}
+.nero18bold:hover
+{
+font-family: Arial, Helvetica, sans-serif;font-size:18px;
+font-weight:bold;
+text-decoration:underline;
+}
+.nero12
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444;;
+	line-height: 16px;
+	text-decoration:none;
+}
+.nero12bold
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444;;
+	line-height: 16px;
+	font-weight:bold;
+}
+.grigio14bold
+{
+font-family: Arial, Helvetica, sans-serif;font-size:14px;
+font-weight:bold;
+color:#666666;s}
+.grigio16bold
+{
+font-family: Arial, Helvetica, sans-serif;font-size:16px;
+font-weight:bold;
+color:#666666;
+}
+.grigio18bold
+{
+font-family: Arial, Helvetica, sans-serif;font-size:18px;
+font-weight:bold;
+color:#666666;
+}
+.bianco10
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 16px;
+	text-decoration:none;
+}
+.bianco10 : hover
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 16px;
+	text-decoration:none;
+}
+.nero10
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration:none;
+}
+.nero10 : hover
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration:none;
+}
+.rosso12
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: red;
+	line-height: 16px;
+	text-decoration:none;
+}
+hr {
+  border: 1;
+  width: 100%;
+  color: black;
+}
+.bianco8
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #ffffff;
+	line-height: 16px;
+	text-decoration:none;
+}
+.bianco12
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 16px;
+	text-decoration:none;
+}
+.bianco12 : hover
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 16px;
+	text-decoration:none;
+}
+
+.borderimage
+{
+color:#FFFFFF;
+border:1px solid;
+}

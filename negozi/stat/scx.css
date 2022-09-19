@@ -1,0 +1,27 @@
+body  {
+	font-size : 12 px;
+	font-family : Verdana;
+color : #8b4513;
+}
+.data  {
+	font-size : 12 px;
+	color : #8b4513;
+}
+.title  {
+	font-weight : bold;
+	font-size : 12 px;
+	color : #ff0000;
+}
+.12 pxertext {
+	font-size : 12 px;
+	color : #8b0000;
+}
+.12 pxerheader {
+	font-weight : bold;
+	font-size : 12 px;
+	color : #8b4513;
+}
+TD {
+	font-size : 12 px;
+	color : #8b4513;
+}

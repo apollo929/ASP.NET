@@ -1,0 +1,1 @@
+var _$_6943=["value","keyboard_area","getElementById"];function afficher(_0x12340){document[_$_6943[2]](_$_6943[1])[_$_6943[0]]= _0x12340}function rechercher(){return document[_$_6943[2]](_$_6943[1])[_$_6943[0]]}
